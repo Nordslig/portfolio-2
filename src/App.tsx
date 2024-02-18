@@ -1,7 +1,7 @@
 import "./App.css";
 import About from "./components/About";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
 import Header from "./components/header/Header";
 
 function App() {
