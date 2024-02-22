@@ -2,7 +2,15 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      headlines: ["Modern Antiqua", "serif"],
+    },
+    extend: {
+      colors: {
+        primary: "#542b10",
+        secondary: "#e6d5be",
+      },
+    },
   },
   plugins: [],
 };
